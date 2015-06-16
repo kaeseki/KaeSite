@@ -1,0 +1,88 @@
+/* ひな形 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: #bfbfbf;
+}
+.container{
+    width: 900px;
+    margin:auto ;
+}
+
+/* レイアウト */
+
+#key-block .main {
+    width: 600px;
+    outline: hidden;
+    font: left;
+    background: #fff;
+    padding: 20px;
+}#key-block
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    float: left;
+    background: #fff;
+}
+h1{
+    float: right;
+    font-size: 20px;
+}
+    
+/* 画像・見出し・パラグラフ */
+    
+#key-block img{
+        float: left;
+        margin-right: 10px;
+    }
+#key-block h1{
+        float: left;
+        font-size: 30px;
+        color:lightcoral;
+        width: 350px;
+        margin-bottom: 5px;
+    }
+    
+#key-block p{
+        float:left;
+        font-size: 15px;
+        color: lightcoral;
+        width: 350px;
+        margin-bottom: 5px;
+    }
+
+/* メニュー */
+
+nav{
+    overflow:hidden;
+    background: #875f9a;
+    margin-bottom: 30px;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: transparent;
+    border-radius:0;
+    display: block;
+    padding: 8px;
+    transition: 0.5s;
+    
+}
+nav a:hover{
+    background: #be90d4;
+    color: #ff4c4c;
+}
+
+
+    
