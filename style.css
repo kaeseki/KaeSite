@@ -1,0 +1,131 @@
+/* ひな形 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-color: #bfbfbf;
+}
+
+ .container{
+    width: 1200px;
+    margin:auto;
+}
+
+/* レイアウト */
+
+ .main {
+    width: 800px;
+    outline: hidden;
+    float:left;
+    background: #eeeeee;
+    padding: 20px;
+}
+.col-6{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 800px;
+    color:lightcoral;
+    overflow: hidden;
+    
+}
+.col-3 {
+    padding: 5px;
+    width: 400px;
+    float: left;
+    overflow: hidden;
+    background-color: white
+    
+    
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    margin-left: 10px;
+    float: left;
+    background: #eeeeee;
+}
+
+ 
+/* 画像・見出し・パラグラフ */
+    
+#key-block img{
+        float: left;
+        margin:auto;
+    }
+#key-block h1{
+    
+        font-size: 50px;
+        color:lightcoral;
+        width: ;
+        margin: auto;
+    }
+
+/* サイドバー */
+    
+#key-block p{
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+#side-block h1{
+    padding-left: 85px ;
+}
+#side-block h4{
+    padding-left: 30px;
+}
+#side-block img{
+width: 200px;
+padding-left: 50px;
+padding-top: 10px;}
+
+#side-block a{
+    text-decoration: none;
+    transition: 0.5s;    
+}
+
+#side-block a:hover{
+    background : #89c4f4; 
+}
+
+/*カラム*/
+
+#col-block img{
+padding-left:5px;
+    margin: auto;
+}
+
+/* メニュー */
+
+nav{
+    overflow:hidden;
+    background: #875f9a;
+    margin-bottom: 45px;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    background: transparentc;
+    border-radius:0;
+    display: block;
+    padding: 11px;
+    transition: 0.5s;
+    
+}
+nav a:hover{
+    background: #be90d4;
+    color: #ff4c4c;
+}
+
+
+    
