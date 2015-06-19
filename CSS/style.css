@@ -31,8 +31,8 @@ body{
     
 }
 .col-3 {
-    padding: 5px;
-    width: 400px;
+    padding: 2px;
+    width: 310px;
     float: left;
     overflow: hidden;
     background-color: white
@@ -59,45 +59,63 @@ body{
     
         font-size: 50px;
         color:lightcoral;
-        width: ;
         margin: auto;
+    font-family:'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
     }
 
-/* サイドバー */
     
 #key-block p{
         font-size: 15px;
         margin-bottom: 5px;
         margin-top: 20px;
-        margin-left: 10px;
+     font-family:  'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
+    margin-left: 10px;
+   
     }
-#side-block h1{
-    padding-left: 85px ;
+
+/* サイドバー */
+#side-block h2{
+    padding-left: 100px ;
+      font-family:  'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
+    color: navy;
 }
 #side-block h4{
     padding-left: 30px;
+      font-family:  'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
+    color:navy;
 }
 #side-block img{
 width: 200px;
 padding-left: 50px;
-padding-top: 10px;}
+padding-top: 10px;
+transition: 0.5s }
 
-#side-block a{
-    text-decoration: none;
-    transition: 0.5s;    
-}
 
-#side-block a:hover{
-    background : #89c4f4; 
+
+#side-block img:hover{
+    margin-left: -15%;
+    margin-top: -15%;
+    width: 101%;
+    height: 101%;
+    transition: 1.5s ease
+ 
 }
 
 /*カラム*/
 
 #col-block img{
 padding-left:5px;
+    padding-right: 5px;
     margin: auto;
 }
 
+#col-block h2{
+color: dimgray;
+}
 /* メニュー */
 
 nav{
@@ -120,6 +138,8 @@ nav a{
     display: block;
     padding: 11px;
     transition: 0.5s;
+      font-family:  'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
     
 }
 nav a:hover{
@@ -127,5 +147,46 @@ nav a:hover{
     color: #ff4c4c;
 }
 
+
+/*Album*/
+
+.list-album
+{overflow: hidden;}
+
+.list-album li{
+width: 290px;
+background: #eeeeee;
+list-style-type: none;
+float: left;
+margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container h1{
+color: lightcoral;
+font-size: 50px;
+      font-family:  'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
+}
+
+.list-album img{
+width: 250px;
+    padding: 20px;
+}
+
+.list-album h2{
+margin: auto;
+padding: 20px;
+color: dimgray;
+      font-family:  'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
+}
+
+.list-album p{
+padding-left: 200px;
+color:dimgray;
+      font-family:  'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
+}
 
     
